@@ -1,0 +1,15 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local dataset copy and generated outputs
+data/sift_512.csv
+sift_512.csv
+results/generated/
+plots/generated/
+
+# Local Streamlit secrets
+.streamlit/secrets.toml

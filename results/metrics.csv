@@ -1,0 +1,16 @@
+experiment,model,accuracy,precision_macro,recall_macro,f1_macro,fpr_macro
+baseline,RandomForestClassifier,0.573444,0.635038,0.444846,0.466252,0.023384
+baseline,SVC,0.528483,0.507965,0.379536,0.383663,0.025745
+baseline,DecisionTreeClassifier,0.447931,0.370326,0.373147,0.371469,0.029591
+baseline,AdaBoostClassifier,0.174687,0.101426,0.100787,0.069723,0.045312
+baseline,MLPClassifier,0.393071,0.363135,0.319167,0.326869,0.032833
+smote,RandomForestClassifier,0.569969,0.587168,0.537832,0.545644,0.023114
+smote,SVC,0.521849,0.492687,0.437553,0.429600,0.025802
+smote,DecisionTreeClassifier,0.408339,0.337581,0.372539,0.347013,0.031452
+smote,AdaBoostClassifier,0.157629,0.108961,0.139385,0.094755,0.044703
+smote,MLPClassifier,0.404233,0.355913,0.363320,0.356032,0.031821
+feature_selection,RandomForestClassifier,0.547963,0.561707,0.520059,0.522440,0.024277
+feature_selection,SVC,0.503738,0.469035,0.430131,0.418117,0.026756
+feature_selection,DecisionTreeClassifier,0.391703,0.320899,0.348117,0.326979,0.032308
+feature_selection,AdaBoostClassifier,0.144151,0.087100,0.131251,0.085607,0.045277
+feature_selection,MLPClassifier,0.481310,0.473272,0.430023,0.444510,0.027832
